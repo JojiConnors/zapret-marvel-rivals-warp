@@ -1,0 +1,15 @@
+# Local test output
+utils/test results/
+Marvel Rivals (TEST).bat
+/release/
+
+# Packet captures and diagnostic dumps
+*.pcap
+*.pcapng
+*.dmp
+*.dump
+*.log
+
+# Local tool metadata
+.agents/
+.sentry-native/
