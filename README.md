@@ -1,5 +1,5 @@
 # Marvel Rivals via Cloudflare WARP
-Cобераю ру комьюнити Marvel Rivals в тг паблике t.me/FixMarvelRivals @FixMarvelRivals
+Cобираю ру комьюнити Marvel Rivals в тг паблике t.me/FixMarvelRivals @FixMarvelRivals
 
 Набор BAT-файлов для запуска **Marvel Rivals через Steam** с использованием
 Cloudflare WARP и zapret на Windows.
