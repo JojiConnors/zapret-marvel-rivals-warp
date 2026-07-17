@@ -1,7 +1,8 @@
-28f0fa7c74dbe1508e0f136e878f6d0951593bd0fee751d9a65f0c00800972b5  ./.gitignore
+85cdba2df14f45a238a6253a3fe8c8abd03798251dd907b7a73c33c13a274e0c  ./.gitignore
 2ce94cf1a2373a449bfcfd75ebedfc7300ecf7502e637a4afdc04fb39404ea07  ./1 - INSTALL Cloudflare WARP.bat
 a8a642017d6d6605ccaf8b046273e5e352f015a3329dd6c45e97c4edde826fe4  ./2 - START Marvel Rivals via WARP.bat
 c2cf111e38cedeba4788c99b7172e329ee2f392807be16a119520a8e27c6fa14  ./3 - STOP WARP and zapret.bat
+2524b35177e9aba9e000303dfa577191469109ee72a279964f286c44d70accfa  ./4 - START Marvel Rivals via WARP WireGuard.bat
 103104a52e5293ce418944725df19e2bf81ad9269b9a120d71d39028e821499b  ./bin/cygwin1.dll
 e065870cb0d13152e6132807bbf42218a9e7cd8d96f5602b61674cc540f3a56e  ./bin/quic_initial_dbankcloud_ru.bin
 f4589c57749f956bb30538197a521d7005f8b0a8723b4707e72405e51ddac50a  ./bin/quic_initial_www_google_com.bin
@@ -12,6 +13,7 @@ eefeaf09dde8d69b1f176212541f63c68b314a33a335eced99a8a29f17254da8  ./bin/tls_clie
 c1e060ee19444a259b2162f8af0f3fe8c4428a1c6f694dce20de194ac8d7d9a2  ./bin/WinDivert.dll
 8da085332782708d8767bcace5327a6ec7283c17cfb85e40b03cd2323a90ddc2  ./bin/WinDivert64.sys
 affb4f69d2ea302a7abccd5325d81826e140ddae014f1e070bc4a6c0dd555188  ./bin/winws.exe
+0d8619eae57034a8754a7eca75aa96fea58f23c2c40cfcc68be80e5f71e6db99  ./gagik-test.bat
 c6dff44ea3c7159788077e31a8e35929eab1c0270fb86f5490d44b1fd049a6fc  ./general (ALT).bat
 7a8b4d861c4448ee3fb4aef61d79bcdbfc3ea0ab043145f643539fbd177c8864  ./general (ALT10).bat
 8df459fc47b6becbfd4cc54263ab99ee275a62c8a8097fb4abea236e29e7cc85  ./general (ALT11).bat
@@ -32,7 +34,7 @@ b9f847180ef1da5908870221acf03a469fc0dca87dadf7404350893d24ca02f2  ./general (SIM
 7ad976ec3968a3dce1e0b54b81e77ec1f925a78eb31930deeaa8359b23201f1a  ./general (SIMPLE FAKE ALT2).bat
 3d8bfbf6758e41c12d3e4975c451e20a92a0cf3a429e3c283d686b92172b2732  ./general (SIMPLE FAKE).bat
 c4f7f5708de5323b55ea85e2ef140c43426352875593eae1c0b94bfc769a4477  ./general.bat
-4a2a2d0d571b0f9694f85ed924fb1daaa7e1aacea7084e539c0818566f73c850  ./LICENSE.txt
+ac8a01f189f41a673cfab9c757267edd6896586a36dee844b9b19acc95cd27b2  ./LICENSE.txt
 1fb91430a8594b2632d41a87b5bf071ce851ffb5b4d470b965d1db2b60d3ee94  ./lists/ipset-all.txt
 96c03954012765ce4ab03b9c30f29ab1ca1b698c6752224d03828e6d182eb0fc  ./lists/ipset-exclude.txt
 19123a22bf1108815c07bda3cda8df282b30bd63e4939949928969c0fd195873  ./lists/ipset-exclude-user.txt
@@ -41,9 +43,40 @@ cef044825cfc9e0f073cd040587e0bb2184d1cbb7a013ef6532da2cc34028de8  ./lists/list-e
 9bcd915e90635562ad7332eab9b7e6ecce420ee344762423037ac6eff01d9dab  ./lists/list-general.txt
 6c622ab155cf403ab8857f3805be8df7acba8b3d7a700ea19e52699260a5bc7f  ./lists/list-general-user.txt
 1e59f9d487f7bce12091c838151713d0a8d31c3aae20afefebb38206f2cd8232  ./lists/list-google.txt
+bbbcef163ea8465e141535510d629318e3d8a28e59790ba5d6145212f68a0d09  ./Marvel-Rivals-Discord-winws2-portable/1_START_MARVEL_DISCORD.bat
+094fc7e10a97108a8f350a08d31fb6bf9a0cd361fa5a8c56944361f54de67bdf  ./Marvel-Rivals-Discord-winws2-portable/2_STOP.bat
+e79bb70eb7b40255ef3d0174c6f3ede74d7a8715ca5aed1507aeb2d5ebadcc1d  ./Marvel-Rivals-Discord-winws2-portable/3_STATUS.bat
+f7a1c1cffc8f65bd47412b7ca5588653d21eec916bb79203c9914890a62874df  ./Marvel-Rivals-Discord-winws2-portable/bin/quic_initial_dbankcloud_ru.bin
+9cd5469309780ca56c0bd97266524a48c7ee529d02c3179cfecb20b260a59641  ./Marvel-Rivals-Discord-winws2-portable/bin/stun.bin
+936c2bee4cfb80aa3c426b2dcbcc834b3fbcd1adb17172959dc569c73a14275c  ./Marvel-Rivals-Discord-winws2-portable/bin/tls_clienthello_www_google_com.bin
+064dd255cb506be9558794132a6ed9a11c8d317ab82d2e16e06161585c7a5b33  ./Marvel-Rivals-Discord-winws2-portable/config/marvel-discord.txt
+103104a52e5293ce418944725df19e2bf81ad9269b9a120d71d39028e821499b  ./Marvel-Rivals-Discord-winws2-portable/exe/cygwin1.dll
+8da085332782708d8767bcace5327a6ec7283c17cfb85e40b03cd2323a90ddc2  ./Marvel-Rivals-Discord-winws2-portable/exe/Monkey64.sys
+944368b7a6eb0a97701e152a9171267db66377cc31bde415ab5da22c7a09cc43  ./Marvel-Rivals-Discord-winws2-portable/exe/WinDivert.dll
+a3331a4c1bdc6653e392633e6365c53b764034561223bb872272d95f8f41c5bd  ./Marvel-Rivals-Discord-winws2-portable/exe/winws2.exe
+fd4725146209f074a589e494a1c5cd295625477840508abc705508bd703b83bb  ./Marvel-Rivals-Discord-winws2-portable/launcher.ps1
+0ed1174a03049d35a2e9b4b2b3b49b9cd3e454952525cf2d9d8ca10edbf40506  ./Marvel-Rivals-Discord-winws2-portable/lists/discord.txt
+a703b82747923342f16d2d123314b29bca76ea3092e3bcda17b11190e9347f18  ./Marvel-Rivals-Discord-winws2-portable/lists/discord-media.txt
+20eba9de415c608fe3c34cdcf0ee7413c9040d585a2c2c77606d8bdeff1b551c  ./Marvel-Rivals-Discord-winws2-portable/lists/discord-updates.txt
+ae4e2a0732719577cfdf40d0d1b716f2b2c8339c0ad0547d2bf04cb4af6f835d  ./Marvel-Rivals-Discord-winws2-portable/lists/ipset-dns.txt
+e3e0219a941788c693e1e819d1ca0c2721db5e1f2e198aec612c3cb4255cb583  ./Marvel-Rivals-Discord-winws2-portable/lists/ipset-exclude.txt
+91e80c7e37a518f0554f7f17b13f00b55335730b8d4c2e55dc1e0e8752576b43  ./Marvel-Rivals-Discord-winws2-portable/lists/ipset-ru.txt
+f5d78d1e3479219bd9c213e69131d70730f27f9d9c95ebc9865ceebbb9a9821f  ./Marvel-Rivals-Discord-winws2-portable/lua/custom_diag.lua
+6d40714475cec9f6bd21594bb8f0907a810553520cfd8bea1fd26d6a2f8fff32  ./Marvel-Rivals-Discord-winws2-portable/lua/custom_funcs.lua
+ba3298c647eebf48ce2bf7eb51035e0305b391d160154f422396baaec9054d6e  ./Marvel-Rivals-Discord-winws2-portable/lua/fakemultidisorder.lua
+22e03eb8a6646cc8b06eed4d36549f8b25db6fbc6c06ec5cfb233f8c95f90e93  ./Marvel-Rivals-Discord-winws2-portable/lua/fakemultisplit.lua
+2526ee36cb7a3a5d484df7a6d4897ee15393ca9e8d0f97faa43b89f7e3df2933  ./Marvel-Rivals-Discord-winws2-portable/lua/zapret-antidpi.lua
+576e52648ba75503b4407d451bc9e8a94f82879ebcf005aba7b40017a929d264  ./Marvel-Rivals-Discord-winws2-portable/lua/zapret-auto.lua
+743df53860792d47c2784f43b86f882a16518f9f107f278008184204d7dfd469  ./Marvel-Rivals-Discord-winws2-portable/lua/zapret-lib.lua
+67565e2202c0d184096937f54d563aeae684f0f767f09423b95f2507347cb142  ./Marvel-Rivals-Discord-winws2-portable/lua/zapret-multishake.lua
+3422a9c5edc5a3263ab644188d9db093c6633ef9e25c2c7a24e8e34e98739d26  ./Marvel-Rivals-Discord-winws2-portable/README-RU.txt
+f700644aeace7768146d66300be7fa19b5e07167e233ec6ea1a1c2ef49cfed84  ./Marvel-Rivals-Discord-winws2-portable/windivert.filter/windivert_part.discord_media.txt
+3354ee5db83b9bfd211596977dd5fca371827a3641707b7d6752ab65b4b6a445  ./Marvel-Rivals-Discord-winws2-portable/windivert.filter/windivert_part.stun.txt
+d6a486f4629e8470146c19738b44d66a29de899e23f101307e9d908124726c63  ./Marvel-Rivals-Discord-winws2-portable/windivert.filter/windivert_part.wireguard.txt
 3ace20852764a47e5071585922cda0b82c9d967e99a060e891a15792d33d90d8  ./README - Marvel Rivals WARP.txt
-81afd738739fb1a470005e40c621b71f150f7033799867eaa3aad24c15867fef  ./README.md
+9079232d8812a8e1e84203138e313b21d50c4fc1d03691787c65ad1071bea2ba  ./README.md
 c1b7918ceb9c7570998f34762d9964547ebb1537793f140d721d7c72c9729326  ./service.bat
 9e3dbe0a16e58797ba9b8d0ff475dc0dbb5fbcab8b5c9e9f39daec57fad121b9  ./utils/game_filter.enabled
 4c953196e2649478c267450fc80cef121ef96bc50656ef75336b9589c0808cea  ./utils/targets.txt
 f31ced248fee999c780d1361d2a244ff2a63c7feb57f5678176367ef5d2b0e15  ./utils/test zapret.ps1
+ed22f97d89a6b8bac185e6fd2c6fc53cbed9cb8cdc15c57be07ab515812fd873  ./Marvel-Rivals-Discord-winws2-portable.zip

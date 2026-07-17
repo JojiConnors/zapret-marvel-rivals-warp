@@ -27,6 +27,10 @@ SOFTWARE.
 This repository contains binary files originating from the project by bol-van,  
 available at: https://github.com/bol-van/zapret/ (licensed under the MIT License).
 
+The portable winws2 profile also contains files originating from the
+youtubediscord/zapret project:
+https://github.com/youtubediscord/zapret
+
 This repository also includes and depends on WinDivert  
 (https://github.com/basil00/WinDivert), which is licensed under your choice of:
 
@@ -36,6 +40,14 @@ This repository also includes and depends on WinDivert
 Binary distributions of WinDivert are included in this project as-is, without modification.  
 The corresponding source code and license terms for WinDivert are available at  
 https://github.com/basil00/WinDivert.
+
+The included Cygwin runtime remains subject to the Cygwin licensing terms. Its
+source code and current license information are available from:
+https://cygwin.com/licensing.html
+
+Third-party components remain governed by their respective licenses; the MIT
+license above applies only where the copyright holder has released the relevant
+work under that license.
 
 ---
 
