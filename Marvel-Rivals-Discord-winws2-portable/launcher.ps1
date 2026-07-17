@@ -1,8 +1,12 @@
+param(
+    [string]$ConfigFile = 'config\marvel-discord.txt'
+)
+
 $ErrorActionPreference = 'Stop'
 
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $exe = Join-Path $root 'exe\winws2.exe'
-$config = Join-Path $root 'config\marvel-discord.txt'
+$config = Join-Path $root $ConfigFile
 $errorLog = Join-Path $root 'last-start-error.txt'
 $startupLog = Join-Path $env:TEMP 'Marvel-Rivals-winws2-startup.log'
 
