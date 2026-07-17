@@ -115,7 +115,6 @@ WinDivert — компонент перехвата и фильтрации се
 ## Авторы и исходные проекты
 
 - **JojiConnors** — адаптация сценариев для Marvel Rivals и Cloudflare WARP;
-- **Codex** — помощь с анализом сетевых захватов и подготовкой тестовых профилей;
 - [youtubediscord/zapret](https://github.com/youtubediscord/zapret) — Windows-сборка Zapret 2, на основе которой подготовлен portable-профиль;
 - [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube) — исходная Windows-сборка и профили;
 - [bol-van/zapret](https://github.com/bol-van/zapret) — оригинальный проект zapret;
